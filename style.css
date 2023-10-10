@@ -1,0 +1,367 @@
+:root {
+  --primarycolor: rgb(4, 111, 113);
+  --secondryColor: cadetblue;
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+body {
+  background-color: hsl(210, 36%, 96%);
+  margin: 0;
+  line-height: 1.5;
+}
+.container {
+  /* to make padding works even in mobile size screens */
+  padding-right: 15px;
+  padding-left: 15px;
+  /* to set all elements in the center verticlly */
+  margin-right: auto;
+  margin-left: auto;
+  /* set the width for the container */
+  width: 600px;
+}
+.container2 {
+  /* to make padding works even in mobile size screens */
+  padding-right: 15px;
+  padding-left: 15px;
+  
+  /* to set all elements in the center verticlly */
+  margin-right: auto;
+  margin-left: auto;
+  /* set the width for the container */
+  width: 450px;
+  
+}
+
+.box-reviews {
+  width: 540px;
+  height: 420px;
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+  text-align: center;
+  margin-left: 50%;
+  margin-top: 40vh;
+  transform: translate(-50%, -50%);
+}
+
+.our-reviews, .general-questions-title {
+  color: var(--primarycolor);
+  text-align: center;
+  margin: 30px;
+  margin-bottom: 5px;
+}
+
+.line {
+  width: 60px;
+  height: 3px;
+  background-color: var(--secondryColor);
+  margin-left: 47%;
+}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 168484px;
+  background-color: var(--secondryColor);
+  position: absolute;
+  top: 20px;
+  left: 38%;
+  z-index: 1;
+}
+
+.photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 168484px;
+  /* background-color: var(--primarycolor); */
+  position: absolute;
+  top: 20px;
+  left: 37%;
+  z-index: 2;
+}
+
+.name {
+  color: var(--primarycolor);
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.job-title {
+  color: var(--secondryColor);
+  font-weight: lighter;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.paragraph {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  color: gray;
+  width: 400px;
+}
+
+.left-arrow,
+.right-arrow {
+  color: #49a6e972;
+  border: none;
+  background: none;
+  position: absolute;
+  /* height: 80px; */
+  font-size: 20px;
+  top: 82%;
+  transform: translate(-50%, -50%);
+}
+
+.left-arrow {
+  left: 44%;
+}
+
+.right-arrow {
+  left: 54%;
+}
+
+.left-arrow:hover,
+.right-arrow:hover {
+  color: var(--secondryColor);
+  cursor: pointer;
+}
+
+.surprise {
+  background-color: white;
+  width: 90px;
+  height: 28px;
+  position: absolute;
+  top: 91%;
+  left: 50%;
+  border-color: #49a6e9;
+  transform: translate(-50%, -50%);
+  color: #49a6e9;
+}
+
+.surprise:hover {
+  cursor: pointer;
+  background-color: #49a6e9;
+  color: white;
+  border-color: black;
+}
+
+/* sidebar design */
+.sidebar {
+  position: absolute;
+  height: 100vh;
+  width: 350px;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  background-color: white;
+  transition: 600ms;
+  transform: translate(-100%);
+}
+.sidebar-container {
+  position: relative;
+}
+.sidebar-burger-menu {
+  font-size: 24px;
+  border-radius: 0;
+  right: 60px;
+  top: 40px;
+  color: cadetblue;
+}
+.left-arrow,
+.right-arrow,
+.surprise,
+.close-btn,
+.sidebar-burger-menu {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  position: absolute;
+}
+
+.sidebar-burger-menu:hover {
+  color: rgb(16, 243, 255);
+  cursor: pointer;
+}
+
+.home-sidebar,
+.project-sidebar,
+.contact-sidebar,
+.about-sidebar {
+  position: absolute;
+  top: 150px;
+  left: 0px;
+  height: 50px;
+  width: 350px;
+  list-style: none;
+}
+.about,
+.home,
+.contact,
+.project {
+  font-size: 22px;
+  color: cadetblue;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 20px;
+  text-decoration: none;
+  
+}
+.project-sidebar {
+  top: 210px;
+}
+.about-sidebar {
+  top: 270px;
+}
+.contact-sidebar {
+  top: 330px;
+}
+
+.about-sidebar:hover {
+  .about {
+    transition: 800ms;
+    color: white;
+    left: 80px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  background-color: rgb(95, 158, 160);
+}
+.home-sidebar:hover {
+  .home {
+    transition: 800ms;
+    color: white;
+    left: 80px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  background-color: rgb(95, 158, 160);
+}
+.contact-sidebar:hover {
+  .contact {
+    transition: 800ms;
+    color: white;
+    left: 80px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  background-color: rgb(95, 158, 160);
+}
+.project-sidebar:hover {
+  .project {
+    transition: 800ms;
+    color: white;
+    left: 80px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  background-color: rgb(95, 158, 160);
+}
+
+.close-btn:hover {
+  transform: rotate(360deg);
+  transition: 1000ms;
+  cursor: pointer;
+}
+
+.logo {
+  position: absolute;
+  width: 130px;
+  height: 40px;
+  top: 20px;
+  left: 15px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  color: rgb(206, 14, 14);
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+.show-sidebar {
+  transform: translate(0);
+}
+
+/* ------------------------------------------------------------------------------------ */
+/* second page of the website */
+/* QA section */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+.container {
+  /* to make padding works even in mobile size screens */
+  padding-right: 15px;
+  padding-left: 15px;
+  /* to set all elements in the center verticlly */
+  margin-right: auto;
+  margin-left: auto;
+  /* set the width for the container */
+  width: 450px;
+}
+
+.q-a {
+  padding: 15px;
+  padding-top: 2px;
+  background-color: white;
+  position: relative;
+  padding-bottom: 15px;
+  border-radius: 5%;
+  margin-top: 40px;
+}
+.ans-text {
+  margin: 0;
+  padding: 0;
+  padding-top: 8px;
+  color: rgb(111, 111, 111);
+  display: none;
+}
+.title-question {
+  margin: 0;
+  padding: 0;
+  color: rgb(63, 63, 63);
+}
+
+.ans-text::after {
+  width: 420px;
+  height: 0.5px;
+  background-color: gray;
+  position: absolute;
+  right: 15px;
+  top: 57px;
+  content: "";
+}
+
+.plus-icon,
+.minus-icon {
+  position: absolute;
+  right: 15px;
+  color: cadetblue;
+  font-size: 18px;
+  cursor: pointer;
+  display: inline;
+}
+
+.minus-icon {
+  z-index: -1;
+}
+
+
+.show-question {
+  display: block;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  border: none;
+}
