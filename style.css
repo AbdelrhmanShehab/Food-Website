@@ -425,22 +425,11 @@ button {
   transform: translate(50%, -50%);
   transition: 500ms;
 }
-.explore-now:hover,.all:hover,
+.explore-now:hover,
+.all:hover,
 .dinner:hover,
 .drinks:hover,
-.breakfast:hover <div class="contact-me">
-      <div class="feel-free">
-        <p>Feel free to drop us a line at:</p>
-      </div>
-
-      <div class="mail">
-        <p>
-          <a class="link" href="abdlrhman.shihab@gmail.com"
-            >abdlrhman.shihab@gmail.com</a
-          >
-        </p>
-      </div>
-    </div>  {
+.breakfast:hover {
   font-size: 28px;
 }
 
@@ -633,8 +622,8 @@ button {
   font-family: var(--mainFont);
   padding-top: 25px;
 }
-.contact-me{
+.contact-me {
   margin-top: 80px;
   margin-bottom: 80px;
-  text-align:center ;
+  text-align: center;
 }
