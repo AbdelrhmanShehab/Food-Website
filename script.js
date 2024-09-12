@@ -12,10 +12,10 @@ let namesArr = [
   "Peter Jones",
 ];
 let photosReviewArr = [
-  "../imgs//reviews2.jpeg",
-  "../imgs//reviews3.webp",
-  "../imgs//reviews4.jpg",
-  "../imgs//review1.jpeg",
+  "imgs//reviews2.jpeg",
+  "imgs//reviews3.webp",
+  "imgs//reviews4.jpg",
+  "imgs//review1.jpeg",
 ];
 
 let paragraphsArr = [

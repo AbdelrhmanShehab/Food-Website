@@ -12,15 +12,16 @@
       rel="stylesheet"
     />
     <!-- styles -->
-    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>User reviews</title>
+    <title>Q&A</title>
   </head>
   <body>
     <!-- putting sidebar for this page -->
-    
+
     <button class="sidebar-burger-menu">
       <i class="fas fa-bars"></i>
     </button>
@@ -28,21 +29,21 @@
     <div class="sidebar">
       <div class="sidebar-container">
         <div>
-          <img class="logo" src="../logo.png" alt="" />
+          <img class="logo" src="logo.png" alt="" />
           <button class="close-btn"><i class="fas fa-times"></i></button>
         </div>
         <ul class="links">
           <li class="home-sidebar">
             <a a href="index.html" class="home">Home</a>
           </li>
+          <li class="contact-sidebar">
+            <a href="menu.html" class="contact">Our menu</a>
+          </li>
           <li class="about-sidebar">
-            <a class="about">About</a>
+            <a href="Home-page.html" class="about">Our Reviews</a>
           </li>
           <li class="project-sidebar">
             <a href="QA.html" class="project">Q&A section</a>
-          </li>
-          <li class="contact-sidebar">
-            <a class="contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -50,7 +51,7 @@
 
     <!-- start the content of the QA page -->
     <div class="container2">
-      <h1 class="general-questions-title">General Questions</h1>
+      <h1 class="title-for-page">General Questions</h1>
       <div class="line"></div>
       <!-- start of first question -->
       <div class="q-a">
@@ -109,7 +110,20 @@
       </div>
       <!-- end of first question -->
     </div>
+    <div class="contact-me">
+      <div class="feel-free">
+        <p>Feel free to drop us a line at:</p>
+      </div>
 
-    <script src="../QA.js"></script>
+      <div class="mail">
+        <p>
+          <a class="link" href="abdlrhman.shihab@gmail.com"
+            >abdlrhman.shihab@gmail.com</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <script src="QA.js"></script>
   </body>
 </html>

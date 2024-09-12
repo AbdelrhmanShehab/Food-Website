@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>reviews</title>
+    <title>User Reviews</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
   </head>
   <body>
     <button class="sidebar-burger-menu">
@@ -18,31 +19,31 @@
     <div class="sidebar">
       <div class="sidebar-container">
         <div>
-          <img class="logo" src="../logo.png" alt="" />
+          <img class="logo" src="logo.png" alt="" />
           <button class="close-btn"><i class="fas fa-times"></i></button>
         </div>
         <ul class="links">
           <li class="home-sidebar">
             <a a href="index.html" class="home">Home</a>
           </li>
+          <li class="contact-sidebar">
+            <a href="menu.html" class="contact">Our menu</a>
+          </li>
           <li class="about-sidebar">
-            <a class="about">About</a>
+            <a href="Home-page.html" class="about">Our Reviews</a>
           </li>
           <li class="project-sidebar">
             <a href="QA.html" class="project">Q&A section</a>
-          </li>
-          <li class="contact-sidebar">
-            <a class="contact">Contact</a>
           </li>
         </ul>
       </div>
     </div>
 
-    <h1 class="our-reviews">Our Reviews</h1>
+    <h1 class="title-for-page">Our Reviews</h1>
     <div class="line"></div>
 
     <div class="box-reviews">
-      <img class="photo" src="../imgs/review1.jpeg" alt="" />
+      <img class="photo" src="imgs/review1.jpeg" alt="" />
       <div class="circle"></div>
       <h3 class="name">Peter Jones</h3>
       <h4 class="job-title">Intern</h4>
@@ -62,7 +63,8 @@
 
       <button class="surprise">Surbrise me</button>
     </div>
+ 
 
-    <script src="../script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

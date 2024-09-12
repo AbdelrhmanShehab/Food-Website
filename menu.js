@@ -1,21 +1,3 @@
-let plusIcons = document.querySelectorAll(".plus-icon");
-let ansTexts = document.querySelectorAll(".ans-text");
-let i;
-plusIcons.forEach(function (plusIcon, index) {
-  plusIcon.addEventListener("click", function () {
-    if (ansTexts[index].classList.contains("show-question")) {
-      ansTexts[index].classList.remove("show-question");
-    } else {
-      ansTexts[index].classList.add("show-question");
-      for (i = 0; i < ansTexts.length; i++) {
-        if (i == index) continue;
-        ansTexts[i].classList.remove("show-question");
-      }
-    }
-  });
-});
-
-// javascript for menu and sidebar
 
 let sidebarBurgerMenu = document.querySelector(".sidebar-burger-menu");
 let sidebar = document.querySelector(".sidebar");
@@ -47,3 +29,4 @@ closeBtn.addEventListener("click", closeSidebar);
 function closeSidebar() {
   sidebar.classList.remove("show-sidebar");
 }
+
