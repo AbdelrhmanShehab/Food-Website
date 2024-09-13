@@ -432,7 +432,6 @@ button {
 .breakfast:hover {
   font-size: 28px;
 }
-
 /* Style for fourth page */
 
 .food1,
@@ -468,36 +467,13 @@ button {
 }
 
 /* food photos */
-.foodImg{
+.foodImg {
   object-fit: cover;
   position: absolute;
   width: 100%;
   height: 100%;
 }
-/* .food2 {
-  background-image: url("breakfast/breakfast1.jpg");
-}
-.food3 {
-  background-image: url("drinks/drinks1.jpg");
-}
-.food4 {
-  background-image: url("breakfast/breakfast2.jpg");
-}
-.food5 {
-  background-image: url("drinks/drinks2.jpg");
-}
-.food6 {
-  background-image: url("dinner/dinner2.jpg");
-}
-.food7 {
-  background-image: url("dinner/dinner3.jpg");
-}
-.food8 {
-  background-image: url("drinks/drinks3.jpg");
-}
-.food9 {
-  background-image: url("breakfast/breakfast3.jpg");
-} */
+
 /* food photos */
 .overlay-food {
   background-color: rgba(0, 0, 0, 0.6);
