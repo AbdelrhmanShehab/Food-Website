@@ -447,6 +447,7 @@ button {
   width: 380px;
   height: 250px;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 .food1,
